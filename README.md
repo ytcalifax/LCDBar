@@ -28,7 +28,7 @@ void setup() {
 }
 
 void loop() {
-  bar.drawValue(analogRead(A0));
+  bar.drawValue(analogRead(A0), 1024);
 }
 ```
 
